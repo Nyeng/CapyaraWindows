@@ -1,11 +1,10 @@
 #language: no
-  #http://www.swtestacademy.com/ruby-cucumber-and-capybara-on-windows/
 
 Egenskap: Demonstrere egenskapene til features og Cucumber ved bruk av Capybara
 
   Bakgrunn: Bruker skal være utlogget før tests
     Gitt at vi har en testbruker "vegard.nyeng@nrk.no"
-    Når vi går mot testsiden "innlogging.nrk.no"
+    Når vi går mot testsiden "https://innlogging.nrk.no"
     Så skal vi være utlogget fra innloggingstjenesten
 
   @1
